@@ -1,0 +1,65 @@
+# Site
+name: "Torrentarin - 토렌트정보 공유 블로그"
+title: "Torrentarin"
+description: "토렌트정보 공유 블로그"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /
+url: "https://torrentarin.com"
+google_analytics: 'G-0NKZTF8846'
+disqus: 'demowebsite'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  John:
+    name: John
+    display_name: John
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: koreameme002@gmail.com
+    web: https://torrentarin.com
+    # twitter: https://twitter.com/wowthemesnet
+    description: "토렌트정보 공유 블로그"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  # - jekyll-toc
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 12
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "enabled"
+adsense-data-ad-client: "ca-pub-8780669609800607"
+adsense-data-ad-slot: "7107318306"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
