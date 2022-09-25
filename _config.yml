@@ -1,11 +1,11 @@
 # Site
-name: "Torrentarin - 토렌트정보 공유 블로그"
-title: "Torrentarin"
-description: "토렌트정보 공유 블로그"
+name: "GIFT10SHOP - 선물상품 추천 블로그"
+title: "GIFT10SHOP"
+description: "선물상품 추천 블로그"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
-url: "https://torrentarin.com"
+url: "https://koreameme003.github.io"
 google_analytics: 'G-0NKZTF8846'
 disqus: 'demowebsite'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -18,10 +18,10 @@ authors:
     name: John
     display_name: John
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: koreameme002@gmail.com
-    web: https://torrentarin.com
+    email: koreameme003@gmail.com
+    web: https://koreameme003.github.io
     # twitter: https://twitter.com/wowthemesnet
-    description: "토렌트정보 공유 블로그"
+    description: "선물상품 추천 블로그"
 
 # Plugins
 plugins:
