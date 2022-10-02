@@ -1,7 +1,7 @@
 # Site
-name: "GIFT10SHOP - 선물상품 추천 블로그"
+name: "GIFT10SHOP - Gift Product Recommendation Blog"
 title: "GIFT10SHOP"
-description: "선물상품 추천 블로그"
+description: "Gift Product Recommendation Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
@@ -21,7 +21,7 @@ authors:
     email: koreameme003@gmail.com
     web: https://koreameme003.github.io
     # twitter: https://twitter.com/wowthemesnet
-    description: "선물상품 추천 블로그"
+    description: "Gift Product Recommendation Blog"
 
 # Plugins
 plugins:
